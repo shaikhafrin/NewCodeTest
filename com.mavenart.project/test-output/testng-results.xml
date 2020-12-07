@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9306" started-at="2020-12-07T02:19:51Z" finished-at="2020-12-07T02:20:01Z">
+    <groups>
+    </groups>
+    <test name="Yahoo App Test" duration-ms="9306" started-at="2020-12-07T02:19:51Z" finished-at="2020-12-07T02:20:01Z">
+      <class name="com.test.TestNewProject">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.TestNewProject@52a86356]" name="login" is-config="true" duration-ms="9029" started-at="2020-12-07T07:49:51Z" finished-at="2020-12-07T07:50:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://reg.ebay.in/reg/PartialReg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="registerUser(java.lang.String)[pri:0, instance:com.test.TestNewProject@52a86356]" name="registerUser" duration-ms="225" started-at="2020-12-07T07:50:00Z" finished-at="2020-12-07T07:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[afrin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- com.test.TestNewProject -->
+    </test> <!-- Yahoo App Test -->
+  </suite> <!-- Suite -->
+</testng-results>

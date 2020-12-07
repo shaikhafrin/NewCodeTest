@@ -1,0 +1,4 @@
+[main] DEBUG org.apache.log4j.Logger  - Log4j appender configuration is successful !!
+[main] INFO  TestNewProject  - chrome driver launched
+[main] INFO  TestNewProject  - chrome driver launched
+[main] INFO  TestNewProject  - chrome driver launched

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="fileName" value="testdata.xlxs"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://reg.ebay.in/reg/PartialReg"/>
+  <parameter name="username" value="afrin"/>
+  <test name="Yahoo App Test(failed)">
+    <parameter name="fileName" value="testdata.xlxs"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://reg.ebay.in/reg/PartialReg"/>
+    <parameter name="username" value="afrin"/>
+    <classes>
+      <class name="com.test.TestNewProject">
+        <methods>
+          <include name="login"/>
+          <include name="registerUser"/>
+        </methods>
+      </class> <!-- com.test.TestNewProject -->
+    </classes>
+  </test> <!-- Yahoo App Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

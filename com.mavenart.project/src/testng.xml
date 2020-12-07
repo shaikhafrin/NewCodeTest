@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Yahoo App Test">
+  <parameter name="browser" value="chrome"/>
+  	<parameter name="url" value="https://reg.ebay.in/reg/PartialReg"/>
+  	<parameter name="username" value="afrin"/>
+  	<parameter name="fileName" value="testdata.xlxs"/>
+  	
+  	
+    <classes>
+      <class name="com.test.TestNewProject"/>
+    </classes>
+  </test> 
+</suite> 
